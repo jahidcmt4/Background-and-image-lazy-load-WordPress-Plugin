@@ -1,9 +1,9 @@
 === Lazy load images and background images ===
 Contributors: jahidcse
-Donate link: https://viserx.com/
+Donate link: https://themefic.com/
 Tags: lazy load, images lazy load, background image lazy load, elementor background image lazy load, elementor background, html class, h1 replace, a tag replace, insert code, div replace, id replace, tag replace, seo, wp developers
 Requires at least: 4.7
-Tested up to: 5.8.2
+Tested up to: 6.0.1
 Stable tag: 1.0
 Requires PHP: 5.3
 License: GPLv2 or later
@@ -15,9 +15,10 @@ Lazy load images and background images plugin to boost page load time.
 
 Lazy load images and background images plugin has built in automatic support for images and background lazy load. You can lazy load thumbnails, all images in a post content or in a widget text, avatars. No JavaScript library such as jQuery is used and the script weight is less than 7KB. Decreasing page load time by progressive loading of images and background images.
 
-= AFFECT THESE ELEMENTS: =
-1. img element
-2. Background image
+== AFFECT THESE ELEMENTS: ==
+
+1. IMG Elements
+2. Background images
 
 
 

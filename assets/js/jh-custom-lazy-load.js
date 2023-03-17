@@ -1,5 +1,3 @@
-
-
 jQuery('*').filter(function() {
 if (this.currentStyle)
   return this.currentStyle['backgroundImage'] !== 'none';
@@ -26,15 +24,15 @@ jQuery("img").each(function() {
 
 });
 jQuery("img").each(function() {
-  var jh_image_preloader=jh_baild_data.jh_lazy_load_images;
+  var jh_image_preloader=bgimglazy_data.jh_lazy_load_images;
   var jh_current_img_src = this.src;        
   var jh_old_src = jh_current_img_src;
   var jh_new_src = jh_image_preloader;
-  $('img[src="' + jh_old_src + '"]').attr('src', jh_new_src);
+  jQuery('img[src="' + jh_old_src + '"]').attr('src', jh_new_src);
 });
 
 
-$('.jh-lazy-load').jhLoadImage({
+jQuery('.jh-lazy-load').jhLoadImage({
   offset: '75%',
   delay: 750,
   pluginId: 'jhLoadImage'
