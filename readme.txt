@@ -42,6 +42,9 @@ Yes.
 
 Yes.
 
+== Screenshots ==
+
+1. LazyLoad Settings
 
 == Changelog ==
 
