@@ -57,9 +57,14 @@ function bgimglazy_lazy_load_images_script(){
   wp_enqueue_script( 'bgimglazy_lazy_load_js', plugins_url('/assets/js/jh-lazy-load.js', __FILE__), array('jquery'), $this->plugin->version, true );
   wp_enqueue_script( 'bgimglazy_lazy_load_custom_js', plugins_url('/assets/js/jh-custom-lazy-load.js', __FILE__), array('jquery'), $this->plugin->version, true );
 
-  $bgimglazy_lazy_load_preloader= plugins_url('/assets/images/preloader.gif', __FILE__);
+  // Settings Options
+  $bgimglazy_option = get_option( 'bgimglazy_option' );
+
+  $bgimglazy_lazy_load_preloader = plugins_url('/assets/images/preloader.gif', __FILE__);
   $bgimglazy_lazy_load_data = array(
-    'jh_lazy_load_images' => $bgimglazy_lazy_load_preloader
+    'bgimglazy_icon' => !empty( $bgimglazy_option['loading-icon'] ) ? $bgimglazy_option['loading-icon'] : $bgimglazy_lazy_load_preloader,
+    'bgimglazy_images' => !empty( $bgimglazy_option['enable-image-loading'] ) ? $bgimglazy_option['enable-image-loading'] : '',
+    'bgimglazy_bg' => !empty( $bgimglazy_option['enable-background-loading'] ) ? $bgimglazy_option['enable-background-loading'] : '',
   );
   wp_localize_script( 'bgimglazy_lazy_load_custom_js', 'bgimglazy_data', $bgimglazy_lazy_load_data );
 }
