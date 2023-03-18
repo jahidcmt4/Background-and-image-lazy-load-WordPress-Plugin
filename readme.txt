@@ -1,15 +1,14 @@
 === Lazy load images and background images ===
 Contributors: jahidcse
-Donate link: https://themefic.com/
 Tags: lazy load, images lazy load, background image lazy load, elementor background image lazy load, elementor background, html class, h1 replace, a tag replace, insert code, div replace, id replace, tag replace, seo, wp developers
 Requires at least: 4.7
-Tested up to: 6.0.1
-Stable tag: 1.0
+Tested up to: 6.1.1
+Stable tag: 1.0.1
 Requires PHP: 5.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Lazy load images and background images plugin to boost page load time.
+All kinds of images and background lazy loading solutions. Make your web pages fast on all devices.
 
 == Description ==
 
@@ -19,6 +18,7 @@ Lazy load images and background images plugin has built in automatic support for
 
 1. IMG Elements
 2. Background images
+3. Iframe (Upcoming)
 
 
 
@@ -44,6 +44,10 @@ Yes.
 
 
 == Changelog ==
+
+= 1.0.1 =
+* Added: Settings Page
+* Added: Settings Dependency
 
 = 1.0.0 =
 * Initial version

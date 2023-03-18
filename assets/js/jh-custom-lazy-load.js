@@ -5,22 +5,22 @@ if (bgimglazy_data.bgimglazy_bg == "1") {
   else if (window.getComputedStyle)
     return document.defaultView.getComputedStyle(this,null)
   .getPropertyValue('background-image') !== 'none';
-  }).addClass('jh-lazy-load');
+  }).addClass('bgimglazy-load');
 
-  jQuery('.jh-lazy-load').each(function () {
+  jQuery('.bgimglazy-load').each(function () {
     var jh_background_image = jQuery(this).css('backgroundImage');
     var jh_bacground_image_url = jh_background_image.replace('url(','').replace(')','');
     var jh_background_image_clean_path = jh_bacground_image_url.replace(/"/g, "");
     jQuery(this).attr("data-jh-lazy-img", jh_background_image_clean_path);
   });
 }
-jQuery('.jh-lazy-load').css('background-image', 'none');
+jQuery('.bgimglazy-load').css('background-image', 'none');
 
 if (bgimglazy_data.bgimglazy_images == "1") {
   jQuery("img").each(function() {
     var jh_current_img_src = this.src;        
     jQuery(this).attr("data-jh-lazy-img", jh_current_img_src);
-    jQuery('img').addClass("jh-lazy-load");
+    jQuery('img').addClass("bgimglazy-load");
 
   });
   jQuery("img").each(function() {
@@ -32,7 +32,7 @@ if (bgimglazy_data.bgimglazy_images == "1") {
   });
 }
 
-jQuery('.jh-lazy-load').jhLoadImage({
+jQuery('.bgimglazy-load').jhLoadImage({
   offset: '75%',
   delay: 750,
   pluginId: 'jhLoadImage'

@@ -1,0 +1,11 @@
+.lazy-up-badge{
+    display: inline-block;
+    color: #fff;
+    padding: 3px 10px 3px 10px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 5px 0 0 0;
+    font-size: 12px;
+    font-weight: 600;
+    background: red;
+}

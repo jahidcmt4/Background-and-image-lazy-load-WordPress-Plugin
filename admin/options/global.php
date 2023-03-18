@@ -38,13 +38,20 @@ if( class_exists( 'CSF' ) ) {
       array(
         'id'    => 'loading-icon',
         'type'  => 'background',
-        'title' => __( 'Add Your Loader Image', 'bgimglazy' ),
+        'title' => __( 'Your Custom Loader Image', 'bgimglazy' ),
         'subtitle' => __( 'You are able to add your custom Loader Image.', 'bgimglazy' ),
         'background_color' => false,
         'background_position' => false,
         'background_repeat' => false,
         'background_attachment' => false,
         'background_size' => false,
+      ),
+      array(
+        'id'    => 'enable-iframe-loading',
+        'type'  => 'switcher',
+        'title' => __( 'Enable Background Loading', 'bgimglazy' ),
+        'default' => true,
+        'subtitle' => $badge_up,
       ),
     )
   ) );
