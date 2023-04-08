@@ -49,7 +49,7 @@ if( class_exists( 'CSF' ) ) {
       array(
         'id'    => 'enable-iframe-loading',
         'type'  => 'switcher',
-        'title' => __( 'Enable Background Loading', 'bgimglazy' ),
+        'title' => __( 'Enable Iframe Loading', 'bgimglazy' ),
         'default' => true,
         'subtitle' => $badge_up,
       ),
