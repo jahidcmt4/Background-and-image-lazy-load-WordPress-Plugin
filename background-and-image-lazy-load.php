@@ -3,9 +3,9 @@
  * Plugin Name: Lazy load images and background images 
  * Plugin URI: https://themefic.com/
  * Description:  All kinds of images and background lazy loading solutions. Make your web pages fast on all devices.
- * Version: 1.0.3
+ * Version: 1.0.5
  * Requires at least: 4.7
- * Tested up to: 6.2
+ * Tested up to: 6.4
  * Requires PHP: 5.3
  * Text Domain: bgimglazy
  * Author: jahidcse
