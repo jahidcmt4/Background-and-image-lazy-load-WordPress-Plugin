@@ -2,8 +2,8 @@
 Contributors: jahidcse
 Tags: lazy load, images lazy load, background image lazy load, elementor background image lazy load, elementor background, html class, h1 replace, a tag replace, insert code, div replace, id replace, tag replace, seo, wp developers
 Requires at least: 4.7
-Tested up to: 6.2
-Stable tag: 1.0.3
+Tested up to: 6.4
+Stable tag: 1.0.5
 Requires PHP: 5.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -47,6 +47,14 @@ Yes.
 1. LazyLoad Settings
 
 == Changelog ==
+
+= 1.0.5 =
+
+* Added: Compatibility with WordPress 6.4
+
+= 1.0.4 =
+
+* Added: Compatibility with WordPress 6.3
 
 = 1.0.3 =
 
